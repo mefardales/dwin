@@ -35,6 +35,9 @@ Para utilizar Dwin en la gestión de dependencias y entornos virtuales, siga los
 - **Dependencias Híbridas**: `dwin -y`
   Permite la gestión de dependencias que son comunes entre diferentes entornos.
 
+-- **Detalles de dependencias**: `dwin -rundoc`
+   Corre un servidor con toda la info de las librerias y ejemplo de uso de cada una de ellas.
+
 ## Instrucciones Iniciales
 
 Antes de empezar con Dwin, realice los siguientes pasos:
