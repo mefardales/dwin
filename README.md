@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="cookiecutter Logo" width="200px" src="https://raw.githubusercontent.com/dwin/dwin/3ac078356adf5a1a72042dfe72ebfa4a9cd5ef38/logo/dwin_logo.png">
+    <img alt="dwin Logo" width="300px" src="logo/dwin_logo.png">
 </h1>
 
 # Dwin - Gestión de Entornos Virtuales
