@@ -1,6 +1,6 @@
-<h1 style="text-align: center;">
+<h1 align="center">
     <img alt="dwin Logo" width="250px" src="logo/dwin_logo.png"><br>
-    <i style="display: block; font-style: italic; font-size:20px;">Asynchronous manager for development environments</i>
+    <i style="display: block; font-style: italic; font-size:15px;">Asynchronous manager for development environments</i>
 </h1>
 
 ## Details
