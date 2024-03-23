@@ -1,51 +1,50 @@
-
-<h1 align="center">
+<div align="center">
     <img alt="dwin Logo" width="300px" src="logo/dwin_logo.png">
-</h1>
+    <i>Asynchronous manager for development environments</i>
+</div>
 
-# Dwin - Gestión de Entornos Virtuales
+## Details
+`dwin` is a tool designed to facilitate the management of dependencies in Python projects asynchronously, allowing developers to focus on development without worrying about dependency management.
 
-Dwin es una herramienta diseñada para facilitar la gestión de múltiples entornos virtuales en proyectos Python, permitiendo a los desarrolladores enfocarse en el desarrollo sin preocuparse por la gestión de dependencias.
+## Features
 
-## Características
+The main features of Dwin include:
 
-Las principales características de Dwin incluyen:
+1. **Management of Multiple Virtual Environments**: Dwin allows managing different virtual environments with distinct dependencies as required by the project.
 
-1. **Gestión de Múltiples Entornos Virtuales**: Dwin permite administrar diferentes entornos virtuales con distintas dependencias, según lo requerido por el proyecto.
+2. **Dependency Separation**: Dwin distinguishes between different types of dependencies (development, production, QA, hybrid) to ensure that only the necessary ones are installed in each environment.
 
-2. **Separación de Dependencias**: Dwin distingue entre diferentes tipos de dependencias (desarrollo, producción, QA, híbridas) para asegurar que solo se instalen las necesarias en cada entorno.
+3. **Automatic Generation of Requirements Files**: Dwin automates the creation of `requirements.txt` files, eliminating the need to manually execute `pip freeze`.
 
-3. **Generación Automática de Archivos de Requisitos**: Dwin automatiza la creación de archivos `requirements.txt`, evitando la necesidad de ejecutar manualmente `pip freeze`.
+4. **Optimization of Development Time**: Reduces the time and effort required to manage and update the project's dependencies.
 
-4. **Optimización del Tiempo de Desarrollo**: Reduce el tiempo y esfuerzo requerido para gestionar y actualizar las dependencias del proyecto.
+## Using Dwin
 
-## Uso de Dwin
+To use Dwin in the management of dependencies and virtual environments, follow the commands according to your needs:
 
-Para utilizar Dwin en la gestión de dependencias y entornos virtuales, siga los siguientes comandos según sus necesidades:
+- **Development Dependencies**: `dwin -d`
+  Manages and installs the necessary dependencies for the development environment.
 
-- **Dependencias de Desarrollo**: `dwin -d`
-  Gestiona e instala las dependencias necesarias para el entorno de desarrollo.
+- **Production Dependencies**: `dwin -p`
+  Focuses on the dependencies needed for the production environment.
 
-- **Dependencias de Producción**: `dwin -p`
-  Se enfoca en las dependencias necesarias para el entorno de producción.
+- **QA (Testing) Dependencies**: `dwin -qa`
+  Manages the specific dependencies for the quality testing environment.
 
-- **Dependencias de QA (Pruebas)**: `dwin -qa`
-  Maneja las dependencias específicas para el entorno de pruebas de calidad.
+- **Hybrid Dependencies**: `dwin -y`
+  Allows the management of dependencies that are common across different environments.
 
-- **Dependencias Híbridas**: `dwin -y`
-  Permite la gestión de dependencias que son comunes entre diferentes entornos.
+- **Dependency Details**: `dwin -rundoc`
+   Runs a server with all the information about the libraries and examples of usage for each of them.
 
--- **Detalles de dependencias**: `dwin -rundoc`
-   Corre un servidor con toda la info de las librerias y ejemplo de uso de cada una de ellas.
+## Initial Instructions
 
-## Instrucciones Iniciales
+Before starting with Dwin, perform the following steps:
 
-Antes de empezar con Dwin, realice los siguientes pasos:
+1. **Creation of the Requirements File**: Make sure to generate and keep the `requirements.txt` file of your project up-to-date.
 
-1. **Creación del Archivo de Requisitos**: Asegúrese de generar y mantener actualizado el archivo `requirements.txt` de su proyecto.
+2. **Activation of the Virtual Environment**: Activate the virtual environment of your project to ensure that the dependencies are installed correctly in the isolated environment.
 
-2. **Activación del Entorno Virtual**: Active el entorno virtual de su proyecto para asegurar que las dependencias se instalen correctamente en el entorno aislado.
+3. **Installation of New Libraries**: In case of adding new dependencies, it is not necessary to execute `pip freeze > requirements.txt` manually; Dwin will take care of updating your requirements files as necessary.
 
-3. **Instalación de Nuevas Librerías**: En caso de agregar nuevas dependencias, no es necesario ejecutar `pip freeze > requirements.txt` manualmente; Dwin se encargará de actualizar sus archivos de requisitos según sea necesario.
-
-Siguiendo estas instrucciones, puede maximizar su eficiencia y enfocarse en el desarrollo de su proyecto con Dwin.
+By following these instructions, you can maximize your efficiency and focus on the development of your project with Dwin.
