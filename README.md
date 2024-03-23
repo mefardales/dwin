@@ -1,7 +1,7 @@
-<div align="center">
-    <img alt="dwin Logo" width="300px" src="logo/dwin_logo.png">
-    <i>Asynchronous manager for development environments</i>
-</div>
+<h1 style="text-align: center;">
+    <img alt="dwin Logo" width="250px" src="logo/dwin_logo.png"><br>
+    <i style="display: block; font-style: italic; font-size:20px;">Asynchronous manager for development environments</i>
+</h1>
 
 ## Details
 `dwin` is a tool designed to facilitate the management of dependencies in Python projects asynchronously, allowing developers to focus on development without worrying about dependency management.
