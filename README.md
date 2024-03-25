@@ -79,6 +79,60 @@ Contributions are what make the open-source community such an amazing place to l
 - Push to the Branch (`git push origin feature/AmazingFeature`)
 
 - Open a Pull Request
+  
+
+
+## TODO List 🗂️
+Initial Setup and Planning:
+- [x] **Set up a new Git repository for the project.**
+- [x] **Create a virtual environment and set up initial Python project structure.**
+- [ ] **Define the library's API and design interface.**
+
+## Core Development Tasks:
+- [ ] **Implement SQLite database integration for caching:**
+  - [ ] Set up SQLite database schema for caching.
+  - [ ] Develop functions for inserting, fetching, and deleting cache entries.
+  - [ ] Implement cache expiration and automatic cleanup of old entries.
+- [ ] **Develop the core caching logic:**
+  - [ ] Create a function to check the cache before making an API call.
+  - [ ] Implement logic to cache new API responses.
+  - [ ] Ensure thread safety for read/write operations to the cache.
+- [ ] **Integrate `httpx` for making HTTP requests within the library.**
+- [ ] **Utilize `pydantic` for response validation and data modeling.**
+
+## Testing and Documentation:
+- [ ] **Write unit tests for all major functionality:**
+  - [ ] Test SQLite database operations.
+  - [ ] Test caching logic and expiration.
+  - [ ] Test HTTP request functionality and error handling.
+- [ ] **Set up a continuous integration (CI) pipeline to run tests automatically.**
+- [ ] **Create comprehensive documentation:**
+  - [ ] Write a clear, concise README file.
+  - [ ] Document all public functions and classes.
+  - [ ] Provide examples of common use cases and workflows.
+
+## Additional Features and Improvements:
+- [ ] **Implement advanced caching strategies (e.g., LRU cache).**
+- [ ] **Add support for asynchronous API calls.**
+- [ ] **Provide configuration options for:**
+  - [ ] Customizing database file location.
+  - [ ] Setting global cache expiration times.
+  - [ ] Configuring automatic cleanup intervals.
+- [ ] **Optimize performance for high-load scenarios.**
+
+## Community and Distribution:
+- [ ] **Set up a contributing guide and code of conduct for the project.**
+- [ ] **Create issue templates and pull request templates for GitHub.**
+- [ ] **Package and publish the library to PyPI.**
+- [ ] **Promote the library in relevant online communities and social media.**
+
+## Maintenance and Support:
+- [ ] **Monitor and address issues reported by users.**
+- [ ] **Regularly update dependencies to maintain compatibility and security.**
+- [ ] **Plan and implement new features based on user feedback.**
+
+Remember, this list is a guideline. It's expected to evolve over time as the project develops and grows.
+
 
 ## License 📄
 Dwin is released under the MIT License. See the bundled LICENSE file for details.
