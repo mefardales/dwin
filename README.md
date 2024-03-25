@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-<i style="display: block; font-style: italic; font-size:15px;">Cache Library for API Services 🚀</i>
+<i style="display: block; font-style: italic; font-size:15px;">dwin: API Response Caching for Python 🚀</i>
 </div>
 
 ## Details 🚀
