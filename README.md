@@ -135,7 +135,7 @@ Remember, this list is a guideline. It's expected to evolve over time as the pro
 
 
 ## License 📄
-Dwin is released under the MIT License. See the bundled LICENSE file for details.
+`dwin` is released under the MIT License. See the bundled LICENSE file for details.
 
 ## Support 💬
-If you encounter any problems or have any queries about Dwin, please feel free to create an issue or contact us through our support channels.
+If you encounter any problems or have any queries about `dwin`, please feel free to create an issue or contact us through our support channels.
