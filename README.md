@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-<i style="display: block; font-style: italic; font-size:15px;">dwin: API Response Caching for Python 🚀</i>
+<i style="display: block; font-style: italic; font-size:15px;">dwin: A Python library for caching API request responses to enhance and expedite the overall request handling process. 🚀</i>
 </div>
 
 ## Details 🚀
