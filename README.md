@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-<i style="display: block; font-style: italic; font-size:15px;">dwin: A Python library for caching API request responses to enhance and expedite the overall request handling process. 🚀</i>
+<i style="display: block; font-style: italic; font-size:15px;">dwin: Is a persistent HTTP cache that provides an easy way to get better performance for data-driven services. 🚀</i>
 </div>
 
 ## Details 🚀
