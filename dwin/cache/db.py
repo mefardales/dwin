@@ -1,0 +1,1 @@
+# Maneja la interacción con la base de datos SQLite.
