@@ -3,139 +3,27 @@
 </h1>
 
 <div align="center">
-<i style="display: block; font-style: italic; font-size:15px;">dwin: Is a persistent HTTP cache that provides an easy way to get better performance for data-driven services. 🚀</i>
+<i style="display: block; font-style: italic; font-size:15px;">dwin: Is a CLI for 
+<a href="https://render.com/">Render Cloud.</a> 🚀</i>
 </div>
 
 ## Details 🚀
-Welcome to **dwin**, a robust and lightweight caching library for Python, designed to enhance the performance and efficiency of your API interactions. Leveraging the simplicity and reliability of SQLite, Dwin provides a persistent, disk-based cache for API responses, making it an ideal choice for applications where quick and reliable data retrieval is crucial.
 
-
+Welcome to **dwin**! As a robust and lightweight CLI designed specifically for Render Cloud, our platform prioritizes simplicity and efficiency. With **dwin**, users can confidently unlock the full potential of Render Cloud, thanks to its sleek and intuitive Command Line Interface (CLI).
 
 ## Features 🌟
 
-- **Persistent API Response Caching**: Utilizes SQLite for durable, disk-based caching.
-- **Automatic Cache Management**: Handles insertion, retrieval, and expiration of cache data seamlessly.
-- **Easy to Integrate**: Designed to be simple to set up and use within your existing Python applications.
-- **Customizable Expiry Policy**: Allows for flexible cache expiration settings to suit various use cases.
-- **Lightweight**: No heavy dependencies or complex server setups required.
+1. **Effortless Deployment**: Deploy your applications to Render Cloud with just a few simple commands. Say goodbye to complex setup processes and hello to streamlined deployment workflows.
+2. **Comprehensive Management**: Manage your Render Cloud resources seamlessly. Whether it's scaling your services or configuring custom environments, **dwin** offers all the tools you need to stay in control.
+3. **Real-time Monitoring**: Keep a close eye on your application's performance with real-time monitoring capabilities. Track resource usage, identify bottlenecks, and optimize your deployments for peak efficiency.
+4. **Intuitive Interface**: Designed with user-friendliness in mind, **dwin** boasts an intuitive interface that makes navigating Render Cloud a breeze. Say goodbye to steep learning curves and hello to smooth, hassle-free interactions.
 
 ## Getting Started 🚀
-Below you'll find a quick guide on how to get started with Dwin. For more detailed instructions, please refer to the full documentation.
 
-### Installation 
+License 📄
 
-Install Dwin using pip:
-
-```bash
-pip install dwin
-```
-
-### Basic Usage
-
-Here's a simple example of how to use Dwin to cache API responses:
-
-```python
-from dwin import DwinCache
-
-# Create a cache instance
-cache = DwinCache(db_path='path/to/your/cache.db')
-
-# Fetch data with caching
-url = "https://api.example.com/data"
-response = cache.fetch(url)
-print(response)
-
-
-```
-
-### Advanced Usage 🛠
-
-`dwin` also supports advanced features like custom expiration times, namespace partitioning, and more. Here's how you can leverage these features:
-
-```python
-from dwin import DwinCache
-
-# Initialize the cache with a custom expiration time (in seconds)
-cache = DwinCache(db_path='path/to/your/cache.db', expire_after=1800)
-
-# Manually managing cache
-cache.set('custom_key', 'Cached content')
-cached_content = cache.get('custom_key')
-print(cached_content)
-
-
-```
-
-## Contributing 🤝
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-- Fork the Project
-
-- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-
-- Commit your Changes (`git commit -m 'Add some AmazingFeature`)
-
-- Push to the Branch (`git push origin feature/AmazingFeature`)
-
-- Open a Pull Request
-  
-
-
-## TODO List 🗂️
-Initial Setup and Planning:
-- [x] **Set up a new Git repository for the project.**
-- [x] **Create a virtual environment and set up initial Python project structure.**
-- [ ] **Define the library's API and design interface.**
-
-## Core Development Tasks:
-- [ ] **Implement SQLite database integration for caching:**
-  - [ ] Set up SQLite database schema for caching.
-  - [ ] Develop functions for inserting, fetching, and deleting cache entries.
-  - [ ] Implement cache expiration and automatic cleanup of old entries.
-- [ ] **Develop the core caching logic:**
-  - [ ] Create a function to check the cache before making an API call.
-  - [ ] Implement logic to cache new API responses.
-  - [ ] Ensure thread safety for read/write operations to the cache.
-- [ ] **Integrate `httpx` for making HTTP requests within the library.**
-- [ ] **Utilize `pydantic` for response validation and data modeling.**
-
-## Testing and Documentation:
-- [ ] **Write unit tests for all major functionality:**
-  - [ ] Test SQLite database operations.
-  - [ ] Test caching logic and expiration.
-  - [ ] Test HTTP request functionality and error handling.
-- [ ] **Set up a continuous integration (CI) pipeline to run tests automatically.**
-- [ ] **Create comprehensive documentation:**
-  - [ ] Write a clear, concise README file.
-  - [ ] Document all public functions and classes.
-  - [ ] Provide examples of common use cases and workflows.
-
-## Additional Features and Improvements:
-- [ ] **Implement advanced caching strategies (e.g., LRU cache).**
-- [ ] **Add support for asynchronous API calls.**
-- [ ] **Provide configuration options for:**
-  - [ ] Customizing database file location.
-  - [ ] Setting global cache expiration times.
-  - [ ] Configuring automatic cleanup intervals.
-- [ ] **Optimize performance for high-load scenarios.**
-
-## Community and Distribution:
-- [ ] **Set up a contributing guide and code of conduct for the project.**
-- [ ] **Create issue templates and pull request templates for GitHub.**
-- [ ] **Package and publish the library to PyPI.**
-- [ ] **Promote the library in relevant online communities and social media.**
-
-## Maintenance and Support:
-- [ ] **Monitor and address issues reported by users.**
-- [ ] **Regularly update dependencies to maintain compatibility and security.**
-- [ ] **Plan and implement new features based on user feedback.**
-
-Remember, this list is a guideline. It's expected to evolve over time as the project develops and grows.
-
-
-## License 📄
 `dwin` is released under the MIT License. See the bundled LICENSE file for details.
 
 ## Support 💬
+
 If you encounter any problems or have any queries about `dwin`, please feel free to create an issue or contact us through our support channels.
