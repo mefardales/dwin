@@ -1,1 +1,0 @@
-# Define los modelos Pydantic para el almacenamiento en caché.

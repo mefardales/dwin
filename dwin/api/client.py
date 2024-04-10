@@ -1,1 +1,0 @@
-#Aquí se manejan las peticiones HTTP a la API externa.
