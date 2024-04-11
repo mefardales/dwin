@@ -1,17 +1,26 @@
 # Documentation for Render API https://api-docs.render.com/reference/introduction
-class RenderCLoud:
-    def __init__(self):
-        pass
+import os
+import requests
 
-    def authentication(self):
-        pass
-    
+
+class RenderCloud:
+    def __init__(self, **kwargs):
+        self.url = kwargs['data'].get('url', None)
+        self.data = kwargs['data'].get('data', None)
+        
+    def authentication(self) -> dict:
+        response = requests.get(self.url, headers=self.data.get('header', None))
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return {'message': 'Error to connect', 'status_code': response.status_code}
+        
     def rate_limit(self):
         # https://api-docs.render.com/reference/rate-limiting
         pass
     
     # Owners
-    def list_autorize_users_teams(self):
+    def list_autorize_users_teams(self, name: str, email: str, cursor: str, limit: int) -> dict:
         pass
     def retirve_user_team(self):
         pass
@@ -93,3 +102,6 @@ class RenderCLoud:
         pass
     def cancel_job(self):
         pass
+
+
+    
