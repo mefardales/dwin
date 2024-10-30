@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="dwin Logo" width="350px" src="logo/dwin_logo.png"><br>
+    <img alt="dwin Logo" width="150px" src="logo/dwin_logo.svg"><br>
 </h1>
 
 <div align="center">
