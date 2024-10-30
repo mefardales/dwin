@@ -3,8 +3,8 @@
 </h1>
 
 <div align="center">
-<i style="display: block; font-style: italic; font-size:15px;">dwin: Is a CLI for 
-<a href="https://render.com/">Render Cloud.</a> 🚀</i>
+<i style="display: block; font-style: italic; font-size:15px;">dwin: Decentralized Workflow Integration
+
 </div>
 
 ## Details 🚀
